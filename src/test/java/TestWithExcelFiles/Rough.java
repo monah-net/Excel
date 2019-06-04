@@ -17,6 +17,7 @@ public class Rough {
             XSSFWorkbook wb = new XSSFWorkbook(fin);
             XSSFSheet sheet = wb.getSheetAt(0);
             System.out.println(sheet.getRow(8).getCell(1).getCellType());
+            System.out.println(sheet.getRow(8).getCell(1).getStringCellValue());
             System.out.println(sheet.getRow(8));
             int RowsCreated = 0;
             int CellsCreated = 0;
