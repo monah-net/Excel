@@ -12,9 +12,9 @@ import java.util.HashSet;
 
 public class ExceltoExcelWriter {
     public static void main(String[] args) {
-        String ExcelFileSource = "";
-        String ExcelFileDst = "";
-        String ExcelFileResult = "";
+        String ExcelFileSource = "C:\\Users\\007\\Desktop\\R5TS2T.00307.SG.230-FTC-001-A.xlsx";
+        String ExcelFileDst = "C:\\Users\\007\\Desktop\\050-FTC-001-A.xlsx";
+        String ExcelFileResult = "C:\\Users\\007\\Desktop\\FileResult.xlsx";
         File fileResult = new File(ExcelFileResult);
         try{
             FileInputStream fileInput = new FileInputStream(ExcelFileSource);
@@ -32,6 +32,7 @@ public class ExceltoExcelWriter {
                 String cellValue = srcRow.getCell(4).getStringCellValue();
                 String cellType = srcRow.getCell(7).getStringCellValue();
                 Sheet dstSheet = dstWb.getSheet(sheetName);
+                System.out.println("Sheetname: " + sheetName + " Row : " + rowNumber + "Column : " + columnNumber + "Cell value : " + cellValue);
                 if (dstSheet == null) System.out.println("Destination sheet does not exist");
                 Row dstRow = dstSheet.getRow(rowNumber);
                 if (dstRow == null) {
