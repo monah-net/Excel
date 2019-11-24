@@ -27,18 +27,20 @@ public class ExceltoExcelWriter {
                 Row srcRow = srcSheet.getRow(counter);
                 if(srcRow == null || srcRow.getRowNum() == 0) continue;
                 int rowNumber = (int) srcRow.getCell(0).getNumericCellValue();
-                int columnNumber = srcRow.getCell(1).getColumnIndex();
+                int columnNumber = (int) srcRow.getCell(1).getNumericCellValue();
                 String sheetName = srcRow.getCell(2).getStringCellValue();
                 String cellValue = srcRow.getCell(4).getStringCellValue();
                 String cellType = srcRow.getCell(7).getStringCellValue();
                 Sheet dstSheet = dstWb.getSheet(sheetName);
-                System.out.println("Sheetname: " + sheetName + " Row : " + rowNumber + "Column : " + columnNumber + "Cell value : " + cellValue);
+//                System.out.println("COUNTER : " + counter+ " Sheetname: " + sheetName + " Row : " + rowNumber + " Column : " + columnNumber + " Cell value : " + cellValue + " Cell type : " + cellType);
                 if (dstSheet == null) System.out.println("Destination sheet does not exist");
                 Row dstRow = dstSheet.getRow(rowNumber);
+                System.out.println(dstRow.getCell(0).getCellType());
                 if (dstRow == null) {
                     dstRow = dstSheet.createRow(rowNumber);
                     createdRows.add(dstRow);
                 }
+                System.out.println(dstRow.getCell(0).getCellType());
                 Cell dstCell = dstRow.getCell(columnNumber);
                 if(dstCell == null){
                     if (createdRows.contains(dstRow)){
@@ -48,6 +50,12 @@ public class ExceltoExcelWriter {
                     else{
                         System.out.println("Col: " + columnNumber + "Row " + rowNumber + " does not exist in workbook");
                     }
+//                    try{
+//                        System.out.println(dstCell.getColumnIndex() +" "+ dstCell.getRowIndex() +" "+ dstCell.getCellType() +" "+ dstCell.getStringCellValue());
+//                    }
+//                    catch (Exception e){
+//                        System.out.println(e.getMessage());
+//                    }
                     if((cellValue == null) || cellValue.length() == 0){
                         dstCell.setCellType(dstCell.CELL_TYPE_BLANK);
                         dstCell.setCellValue("");
@@ -99,6 +107,8 @@ public class ExceltoExcelWriter {
                 }
             }
           dstWb.write(new FileOutputStream(fileResult));
+            fileInput.close();
+            fileOutput.close();
         }
         catch (Exception e){
             System.out.println(e.getMessage());
