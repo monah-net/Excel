@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54b765a3-c8ca-4549-9f6f-1245a8870463" name="Default" comment="new one">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestWithExcelFiles/BranchComparison.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestWithExcelFiles/ExceltoExcelWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestWithExcelFiles/ExceltoExcelWriter.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +12,9 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Excel" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,33 +38,43 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1SgxkVM7VU4lKqgSueb0T0GoMLt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558349090174" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.ExceltoExcelWriter">
+  <component name="RunManager" selected="Application.BranchComparison">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BranchComparison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestWithExcelFiles.BranchComparison" />
+      <module name="Excel" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestWithExcelFiles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,20 +135,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rough" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestWithExcelFiles.Rough" />
-      <module name="Excel" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestWithExcelFiles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -170,16 +168,28 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BranchComparison" />
         <item itemvalue="Application.ExceltoExcelWriter" />
         <item itemvalue="Application.FloatCompareTests" />
         <item itemvalue="Application.FileReading" />
         <item itemvalue="Application.ReplaceStr" />
-        <item itemvalue="Application.Rough" />
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -283,6 +293,33 @@
     <MESSAGE value="new one" />
     <option name="LAST_COMMIT_MESSAGE" value="new one" />
   </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="240" key="GridCell.Tab.0.bottom" timestamp="1577227756765">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577227756765" />
+    <state width="1398" height="210" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1577222854989" />
+    <state width="1398" height="240" key="GridCell.Tab.0.center" timestamp="1577227756764">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577227756764" />
+    <state width="1398" height="210" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1577222854988" />
+    <state width="1398" height="240" key="GridCell.Tab.0.left" timestamp="1577227756763">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577227756763" />
+    <state width="1398" height="210" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1577222854988" />
+    <state width="1398" height="240" key="GridCell.Tab.0.right" timestamp="1577227756764">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577227756764" />
+    <state width="1398" height="210" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1577222854989" />
+    <state x="399" y="268" key="com.intellij.ide.util.TipDialog" timestamp="1577284025297">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="399" y="268" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1577284025297" />
+    <state x="399" y="270" key="com.intellij.ide.util.TipDialog/0.23.1440.829@0.23.1440.829" timestamp="1577219552915" />
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
@@ -291,21 +328,5 @@
     <SUITE FILE_PATH="coverage/Excel$ExceltoExcelWriter.ic" NAME="ExceltoExcelWriter Coverage Results" MODIFIED="1574632490255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestWithExcelFiles.*</FILTER>
     </SUITE>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
