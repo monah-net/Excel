@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54b765a3-c8ca-4549-9f6f-1245a8870463" name="Default" comment="new one">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestWithExcelFiles/BranchComparison.java" afterDir="false" />
+    <list default="true" id="54b765a3-c8ca-4549-9f6f-1245a8870463" name="Default" comment="added BranchComparison for tests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestWithExcelFiles/ReadFatcaTemplateInArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +52,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558349090174" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
@@ -248,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574632180572</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added BranchComparison for tests">
+      <created>1577284048576</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1577284048576</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -291,9 +299,14 @@
     <MESSAGE value="updated" />
     <MESSAGE value="updated code" />
     <MESSAGE value="new one" />
-    <option name="LAST_COMMIT_MESSAGE" value="new one" />
+    <MESSAGE value="added BranchComparison for tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="added BranchComparison for tests" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="390" y="52" key="CommitChangelistDialog2" timestamp="1577284048405">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="390" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1577284048405" />
     <state width="1398" height="240" key="GridCell.Tab.0.bottom" timestamp="1577227756765">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -314,11 +327,17 @@
     </state>
     <state width="1398" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577227756764" />
     <state width="1398" height="210" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1577222854989" />
-    <state x="399" y="268" key="com.intellij.ide.util.TipDialog" timestamp="1577284025297">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1577284062537">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1577284062537" />
+    <state x="399" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1579690511559">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="399" y="269" key="com.intellij.ide.util.TipDialog/-258.-1057.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1579690511559" />
     <state x="399" y="268" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1577284025297" />
     <state x="399" y="270" key="com.intellij.ide.util.TipDialog/0.23.1440.829@0.23.1440.829" timestamp="1577219552915" />
+    <state x="532" y="338" key="com.intellij.ide.util.TipDialog/0.23.1920.1057/244.1103.1440.827@0.23.1920.1057" timestamp="1579302505161" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
