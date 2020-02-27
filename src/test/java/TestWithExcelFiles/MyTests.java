@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class MyTests {
     public static void main(String[] args) throws IOException {
-        String AddressOfxlsxFile = "/Users/MacbookPro/Desktop/ApacheExcelFiles/050-FTC-002-A.xlsx";
+        String AddressOfxlsxFile = "/Users/olegsolodovnikov/Desktop/1348_testing.xlsx";
         FileInputStream fin = new FileInputStream(AddressOfxlsxFile);
         XSSFWorkbook wb = new XSSFWorkbook(fin);
         XSSFSheet sheet = wb.getSheetAt(0);

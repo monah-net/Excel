@@ -12,7 +12,7 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class FileReading {
+public class FileReadingWriting {
     public static void main(String[] args) throws IOException {
         Map<String, String> mapa1 = new HashMap<String, String>();
         Map<String, String> mapa2 = new HashMap<String, String>();

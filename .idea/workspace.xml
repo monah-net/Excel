@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54b765a3-c8ca-4549-9f6f-1245a8870463" name="Default" comment="added BranchComparison for tests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestWithExcelFiles/ReadFatcaTemplateInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestWithExcelFiles/ReadWbExcelXLS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestWithExcelFiles/ReadingWbExcelXLSX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Excel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Excel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestWithExcelFiles/FileReading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestWithExcelFiles/FileReadingWriting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestWithExcelFiles/MyTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestWithExcelFiles/MyTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestWithExcelFiles/ReadFatcaTemplateInArray.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +19,10 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="Excel" />
@@ -59,15 +70,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
   </component>
-  <component name="RunManager" selected="Application.BranchComparison">
+  <component name="RunManager" selected="Application.ReadWbExcelXLS">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BranchComparison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestWithExcelFiles.BranchComparison" />
+    <configuration name="MyTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestWithExcelFiles.MyTests" />
       <module name="Excel" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -80,8 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceltoExcelWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestWithExcelFiles.ExceltoExcelWriter" />
+    <configuration name="ReadWbExcelXLS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestWithExcelFiles.ReadWbExcelXLS" />
       <module name="Excel" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -94,36 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileReading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestWithExcelFiles.FileReading" />
-      <module name="Excel" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestWithExcelFiles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FloatCompareTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestWithExcelFiles.FloatCompareTests" />
-      <module name="Excel" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestWithExcelFiles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReplaceStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestWithExcelFiles.ReplaceStr" />
+    <configuration name="ReadingWbExcelXLSX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestWithExcelFiles.ReadingWbExcelXLSX" />
       <module name="Excel" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -149,6 +132,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scratch10" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch10" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/Scratch10.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -169,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BranchComparison" />
-        <item itemvalue="Application.ExceltoExcelWriter" />
-        <item itemvalue="Application.FloatCompareTests" />
-        <item itemvalue="Application.FileReading" />
-        <item itemvalue="Application.ReplaceStr" />
+        <item itemvalue="Application.ReadWbExcelXLS" />
+        <item itemvalue="Java Scratch.Scratch" />
+        <item itemvalue="Application.ReadingWbExcelXLSX" />
+        <item itemvalue="Application.MyTests" />
+        <item itemvalue="Java Scratch.Scratch10" />
       </list>
     </recent_temporary>
   </component>
@@ -256,17 +253,15 @@
       <option name="project" value="LOCAL" />
       <updated>1577284048576</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added BranchComparison for tests">
+      <created>1580761875051</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1580761875051</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -303,41 +298,84 @@
     <option name="LAST_COMMIT_MESSAGE" value="added BranchComparison for tests" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="390" y="52" key="CommitChangelistDialog2" timestamp="1577284048405">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="390" y="56" key="CommitChangelistDialog2" timestamp="1580761874899">
+      <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="390" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1577284048405" />
-    <state width="1398" height="240" key="GridCell.Tab.0.bottom" timestamp="1577227756765">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="390" y="56" key="CommitChangelistDialog2/1440.23.2560.1417/4000.23.1920.1057/0.23.1440.828@0.23.1440.828" timestamp="1580761874899" />
+    <state width="1259" height="385" key="GridCell.Tab.0.bottom" timestamp="1582844286576">
+      <screen x="0" y="23" width="2560" height="1377" />
     </state>
+    <state width="699" height="140" key="GridCell.Tab.0.bottom/-220.-1057.1920.1057/0.23.1440.837@0.23.1440.837" timestamp="1582835341905" />
+    <state width="939" height="283" key="GridCell.Tab.0.bottom/-258.-1057.1920.1057/0.23.1440.837@-258.-1057.1920.1057" timestamp="1582295595276" />
     <state width="1398" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577227756765" />
     <state width="1398" height="210" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1577222854989" />
-    <state width="1398" height="240" key="GridCell.Tab.0.center" timestamp="1577227756764">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1259" height="385" key="GridCell.Tab.0.bottom/0.23.2560.1377@0.23.2560.1377" timestamp="1582844286576" />
+    <state width="1259" height="385" key="GridCell.Tab.0.center" timestamp="1582844286575">
+      <screen x="0" y="23" width="2560" height="1377" />
     </state>
+    <state width="699" height="140" key="GridCell.Tab.0.center/-220.-1057.1920.1057/0.23.1440.837@0.23.1440.837" timestamp="1582835341904" />
+    <state width="939" height="283" key="GridCell.Tab.0.center/-258.-1057.1920.1057/0.23.1440.837@-258.-1057.1920.1057" timestamp="1582295595275" />
     <state width="1398" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577227756764" />
     <state width="1398" height="210" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1577222854988" />
-    <state width="1398" height="240" key="GridCell.Tab.0.left" timestamp="1577227756763">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1259" height="385" key="GridCell.Tab.0.center/0.23.2560.1377@0.23.2560.1377" timestamp="1582844286575" />
+    <state width="1259" height="385" key="GridCell.Tab.0.left" timestamp="1582844286575">
+      <screen x="0" y="23" width="2560" height="1377" />
     </state>
+    <state width="699" height="140" key="GridCell.Tab.0.left/-220.-1057.1920.1057/0.23.1440.837@0.23.1440.837" timestamp="1582835341903" />
+    <state width="939" height="283" key="GridCell.Tab.0.left/-258.-1057.1920.1057/0.23.1440.837@-258.-1057.1920.1057" timestamp="1582295595275" />
     <state width="1398" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577227756763" />
     <state width="1398" height="210" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1577222854988" />
-    <state width="1398" height="240" key="GridCell.Tab.0.right" timestamp="1577227756764">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1259" height="385" key="GridCell.Tab.0.left/0.23.2560.1377@0.23.2560.1377" timestamp="1582844286575" />
+    <state width="1259" height="385" key="GridCell.Tab.0.right" timestamp="1582844286575">
+      <screen x="0" y="23" width="2560" height="1377" />
     </state>
+    <state width="699" height="140" key="GridCell.Tab.0.right/-220.-1057.1920.1057/0.23.1440.837@0.23.1440.837" timestamp="1582835341905" />
+    <state width="939" height="283" key="GridCell.Tab.0.right/-258.-1057.1920.1057/0.23.1440.837@-258.-1057.1920.1057" timestamp="1582295595276" />
     <state width="1398" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577227756764" />
     <state width="1398" height="210" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1577222854989" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1577284062537">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1259" height="385" key="GridCell.Tab.0.right/0.23.2560.1377@0.23.2560.1377" timestamp="1582844286575" />
+    <state width="1259" height="261" key="GridCell.Tab.1.bottom" timestamp="1582843484555">
+      <screen x="0" y="23" width="2560" height="1377" />
+    </state>
+    <state width="699" height="140" key="GridCell.Tab.1.bottom/-220.-1057.1920.1057/0.23.1440.837@0.23.1440.837" timestamp="1582835341906" />
+    <state width="1259" height="261" key="GridCell.Tab.1.bottom/0.23.2560.1377@0.23.2560.1377" timestamp="1582843484555" />
+    <state width="1259" height="261" key="GridCell.Tab.1.center" timestamp="1582843484555">
+      <screen x="0" y="23" width="2560" height="1377" />
+    </state>
+    <state width="699" height="140" key="GridCell.Tab.1.center/-220.-1057.1920.1057/0.23.1440.837@0.23.1440.837" timestamp="1582835341905" />
+    <state width="1259" height="261" key="GridCell.Tab.1.center/0.23.2560.1377@0.23.2560.1377" timestamp="1582843484555" />
+    <state width="1259" height="261" key="GridCell.Tab.1.left" timestamp="1582843484554">
+      <screen x="0" y="23" width="2560" height="1377" />
+    </state>
+    <state width="699" height="140" key="GridCell.Tab.1.left/-220.-1057.1920.1057/0.23.1440.837@0.23.1440.837" timestamp="1582835341905" />
+    <state width="1259" height="261" key="GridCell.Tab.1.left/0.23.2560.1377@0.23.2560.1377" timestamp="1582843484554" />
+    <state width="1259" height="261" key="GridCell.Tab.1.right" timestamp="1582843484555">
+      <screen x="0" y="23" width="2560" height="1377" />
+    </state>
+    <state width="699" height="140" key="GridCell.Tab.1.right/-220.-1057.1920.1057/0.23.1440.837@0.23.1440.837" timestamp="1582835341906" />
+    <state width="1259" height="261" key="GridCell.Tab.1.right/0.23.2560.1377@0.23.2560.1377" timestamp="1582843484555" />
+    <state x="258" y="98" key="Maven.ArtifactSearchDialog" timestamp="1582234489158">
+      <screen x="0" y="23" width="2560" height="1377" />
+    </state>
+    <state x="258" y="98" key="Maven.ArtifactSearchDialog/0.23.2560.1377@0.23.2560.1377" timestamp="1582234489158" />
+    <state x="320" y="198" key="Vcs.Push.Dialog.v2" timestamp="1580761884135">
+      <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1577284062537" />
-    <state x="399" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1579690511559">
-      <screen x="0" y="23" width="1440" height="827" />
+    <state x="320" y="198" key="Vcs.Push.Dialog.v2/1440.23.2560.1417/4000.23.1920.1057/0.23.1440.828@0.23.1440.828" timestamp="1580761884135" />
+    <state x="709" y="433" width="483" height="266" key="com.intellij.ide.util.TipDialog" timestamp="1582841671727">
+      <screen x="0" y="23" width="2560" height="1377" />
     </state>
+    <state x="399" y="271" width="483" height="266" key="com.intellij.ide.util.TipDialog/-220.-1057.1920.1057/0.23.1440.837@-220.-1057.1920.1057" timestamp="1582830885740" />
     <state x="399" y="269" key="com.intellij.ide.util.TipDialog/-258.-1057.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1579690511559" />
+    <state x="274" y="-743" key="com.intellij.ide.util.TipDialog/-258.-1057.1920.1057/0.23.1440.837@-258.-1057.1920.1057" timestamp="1582295499479" />
+    <state x="399" y="272" key="com.intellij.ide.util.TipDialog/-258.-1057.1920.1057/0.23.1440.837@0.23.1440.837" timestamp="1582281647394" />
     <state x="399" y="268" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1577284025297" />
     <state x="399" y="270" key="com.intellij.ide.util.TipDialog/0.23.1440.829@0.23.1440.829" timestamp="1577219552915" />
+    <state x="399" y="272" key="com.intellij.ide.util.TipDialog/0.23.1440.837@0.23.1440.837" timestamp="1582216009722" />
     <state x="532" y="338" key="com.intellij.ide.util.TipDialog/0.23.1920.1057/244.1103.1440.827@0.23.1920.1057" timestamp="1579302505161" />
+    <state x="709" y="433" key="com.intellij.ide.util.TipDialog/0.23.2560.1377@0.23.2560.1377" timestamp="1582841671727" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
